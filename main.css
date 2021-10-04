@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  font-family: system-ui;
+  text-align: center;
+  font-size: 17px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+}
+
+.box-father {
+  display: flex;
+
+}
+
+.box-child {
+  width: 560px;
+  margin: 0 auto;
+  border: 1px solid yellow;
+  display: flex;
+  text-align: center;
+}
+
+.container-red {
+
+  box-shadow: 20px 30px red;
+  
+}
+
+.content-blue {
+  box-shadow: 10px 16px blue;
+  display: inline-block;
+  text-align: justify;
+  line-height: 1.8em;
+}
+
+p {
+
+  padding: 15px;
+}
+
+h1 {
+  margin: 20px;
+}
